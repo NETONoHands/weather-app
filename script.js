@@ -16,19 +16,19 @@ async function obterClima() {
     const idClima = dados.weather[0].id;
     
     if (idClima >= 200 && idClima < 300) {
-        document.getElementById('weather-icon').src = '/images/storm.png';
+        document.getElementById('weather-icon').src = 'images/storm.png';
     } else if (idClima >= 300 && idClima < 399) {
-        document.getElementById('weather-icon').src = '/images/drizzle.png';
+        document.getElementById('weather-icon').src = 'images/drizzle.png';
     } else if (idClima >= 500 && idClima < 599) {
-        document.getElementById('weather-icon').src = '/images/rain.png';
+        document.getElementById('weather-icon').src = 'images/rain.png';
     } else if (idClima >= 600 && idClima < 699) {
-        document.getElementById('weather-icon').src = '/images/snow.png';
+        document.getElementById('weather-icon').src = 'images/snow.png';
     } else if (idClima >= 700 && idClima < 799) {
-        document.getElementById('weather-icon').src = '/images/mist.png';
+        document.getElementById('weather-icon').src = 'images/mist.png';
     } else if (idClima === 800) {
-        document.getElementById('weather-icon').src = '/images/clear.png';
+        document.getElementById('weather-icon').src = 'images/clear.png';
     } else {
-        document.getElementById('weather-icon').src = '/images/clouds.png';
+        document.getElementById('weather-icon').src = 'images/clouds.png';
     } 
 
     document.querySelector('.weather').style.display = 'block';
