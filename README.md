@@ -1,24 +1,24 @@
 # Weather App — Mini Forecast (HTML/CSS/JS)
 
-Mini aplicativo de previsão do tempo feito com **HTML, CSS e JavaScript**, com busca por cidade e exibição de **temperatura, umidade e velocidade do vento**. [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+Mini aplicativo de previsão do tempo feito com **HTML, CSS e JavaScript**, com busca por cidade e exibição de **temperatura, umidade e velocidade do vento**.
 
 ## 🔗 Links
 
-- Repositório: https://github.com/NETONoHands/weather-app [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- Live demo: *(adicione aqui o link do GitHub Pages, se quiser destacar)* [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+- Repositório: https://github.com/NETONoHands/weather-app 
+- Live demo: *(adicione aqui o link do GitHub Pages, se quiser destacar)* 
 
 ## ✨ Funcionalidades
 
-- Buscar clima por **nome da cidade** [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- Exibir **temperatura**, **umidade** e **velocidade do vento** [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- Ícone do clima muda automaticamente conforme a condição (ex.: chuva, neve, céu limpo, nuvens) [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- Pesquisa pelo **botão** ou pressionando **Enter** [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+- Buscar clima por **nome da cidade** 
+- Exibir **temperatura**, **umidade** e **velocidade do vento** 
+- Ícone do clima muda automaticamente conforme a condição (ex.: chuva, neve, céu limpo, nuvens) 
+- Pesquisa pelo **botão** ou pressionando **Enter** 
 
 ## 🧰 Tecnologias
 
 - HTML
 - CSS
-- JavaScript [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+- JavaScript 
 
 ## 🧭 Como usar
 
@@ -27,21 +27,21 @@ Mini aplicativo de previsão do tempo feito com **HTML, CSS e JavaScript**, com 
    ```bash
    git clone https://github.com/NETONoHands/weather-app.git
    ```
-2. Abra o arquivo `index.html` no navegador. [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+2. Abra o arquivo `index.html` no navegador. 
 
 ### Opção 2 — Rodar com servidor estático (recomendado)
 Você pode usar qualquer servidor simples (ex.: extensão “Live Server” do VS Code) para evitar problemas de caminhos/arquivos.
 
 ## 🔑 Configuração de API (se aplicável)
 
-O projeto utiliza uma URL de API e uma chave (API_KEY) no `script.js`. Caso o clima não carregue, verifique/ajuste as constantes de API no arquivo `script.js`. [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+O projeto utiliza uma URL de API e uma chave (API_KEY) no `script.js`. Caso o clima não carregue, verifique/ajuste as constantes de API no arquivo `script.js`. 
 
 ## 🗂️ Estrutura do projeto
 
-- `index.html` — estrutura do layout [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- `style.css` — estilos [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- `script.js` — lógica (fetch, renderização e troca de ícones) [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
-- `images/` — ícones (search, humidity, wind e estados do tempo) [1](https://onedrive.live.com?cid=a850abfa62464d86&id=A850ABFA62464D86!s39662f8ce49d4e10930f0fdba492d59c)
+- `index.html` — estrutura do layout 
+- `style.css` — estilos 
+- `script.js` — lógica (fetch, renderização e troca de ícones) 
+- `images/` — ícones (search, humidity, wind e estados do tempo) 
 
 ## 🗺️ Próximos passos (ideias)
 
